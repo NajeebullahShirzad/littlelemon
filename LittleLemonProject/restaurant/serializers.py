@@ -6,7 +6,7 @@ from .models import Menu, Booking
 class MenuSerializer(serializers.ModelSerializer):
     class Meta:
         model = Menu
-        fields = ['ID', 'Title ', 'Price', 'Inventory']
+        fields = ['id', 'title ', 'price', 'inventory']
         
         
 class UserSerializer(serializers.ModelSerializer):
